@@ -73,25 +73,15 @@ h6:hover a.anchor {
     text-decoration: none;
 }
 h1 tt,
-h1 code {
-    font-size: inherit;
-}
+h1 code,
 h2 tt,
-h2 code {
-    font-size: inherit;
-}
+h2 code,
 h3 tt,
-h3 code {
-    font-size: inherit;
-}
+h3 code,
 h4 tt,
-h4 code {
-    font-size: inherit;
-}
+h4 code,
 h5 tt,
-h5 code {
-    font-size: inherit;
-}
+h5 code,
 h6 tt,
 h6 code {
     font-size: inherit;
@@ -107,6 +97,7 @@ h1 {
 	counter-reset: h1;
 }
 h1{
+    text-align: center;
 	counter-reset: h2;
 }
 h2{
@@ -154,7 +145,6 @@ h5{
 h2 {
     font-size: 1.75rem;
     line-height: 1.225;
-    border-bottom: 1px solid #eee;
 }
 
 h3 {
